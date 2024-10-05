@@ -1,0 +1,72 @@
+html
+{
+	padding: 0;
+}
+body
+{
+	padding: 5%;
+	background-color: #E4C6E8;
+}
+header
+{
+	display: flex;
+
+}
+h1
+{
+	font-family: 'Montserrat';
+	font-weight: 900;
+	font-size: 4em;
+	letter-spacing: -1.5px;
+	text-decoration: underline white;
+	text-decoration-thickness: 10px;
+	margin-bottom: -1%;
+}
+#pic_logo_insta
+{
+	width: 5%;
+}
+#pic_me
+{
+	width: 20%;
+	border-radius: 20px;
+	border: 3px solid white;
+}
+h2
+{
+	font-family: 'Raleway';
+	letter-spacing: -1.5px;
+	margin-bottom: 1.3%;
+	font-size: 1.7em;
+}
+ul, label, input, select
+{
+	font-family: 'Raleway';
+	font-weight: thin;
+	letter-spacing: -1.5px;
+	font-size: 1.3em;
+}
+#contact_form
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+
+
+}
+label, input, select
+{
+	border-radius: 15px;
+	padding: 0.5%;
+	width: 43%;
+}
+#submit
+{
+	width: 10%;
+	margin-top: 5%;
+}
+#submit:hover
+{
+	cursor: pointer;
+}
